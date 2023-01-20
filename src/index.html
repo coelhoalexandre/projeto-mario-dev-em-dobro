@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super Mario Bros - O Filme</title>
+
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 
@@ -22,8 +25,8 @@
         </a>
         <nav>
             <ul class="menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">Detalhes</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
             </ul>
         </nav>
     </header>
@@ -31,11 +34,19 @@
         <section class="information">
             <img class="title-image" src="img/titulo.png" alt="Imagem do Título do Filme">
             <p class="description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum fugiat ut eos fuga vero ex enim aliquid perferendis eius, sapiente voluptatem, officiis ratione facilis sequi a? Laborum accusantium doloribus provident?
+                Mario é um encanador junto com seu irmão Luigi. Um dia, eles vão parar no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares.
             </p>
-            <button class="trailer-button">Veja o trailer</button>
+            <button class="trailer-button" onclick="displayTrailer()">Veja o trailer</button>
         </section>
         <img class="mario" src="img/super-mario-chars.png" alt="">
+
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close-modal" onclick="closeModal()">X</span>
+                <iframe id="video" width="640" height="360" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="Trailer Oficial de Super Mario" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
     </main>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
