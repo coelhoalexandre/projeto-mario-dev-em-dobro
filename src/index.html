@@ -12,9 +12,8 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-
     <div class="bg-video">
-        <video class="video" autoplay loop muted poster="">
+        <video class="video" autoplay loop muted>
             <source src="video/video-mario.mp4" type="video/mp4">
         </video>
     </div>
@@ -30,23 +29,24 @@
             </ul>
         </nav>
     </header>
+
     <main class="container">
         <section class="information">
             <img class="title-image" src="img/titulo.png" alt="Imagem do Título do Filme">
             <p class="description">
                 Mario é um encanador junto com seu irmão Luigi. Um dia, eles vão parar no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares.
             </p>
-            <button class="trailer-button" onclick="displayTrailer()">Veja o trailer</button>
+            <button class="trailer-button">Veja o trailer</button>
         </section>
         <img class="mario" src="img/super-mario-chars.png" alt="">
 
         <div class="modal">
             <div class="modal-content">
-                <span class="close-modal" onclick="closeModal()">X</span>
+                <span class="close-modal">X</span>
                 <iframe id="video" width="640" height="360" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="Trailer Oficial de Super Mario" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </main>
-    <script src="js/scripts.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
