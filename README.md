@@ -10,7 +10,7 @@
 
 ## Sobre o Projeto
 
-### Status: ![License: MIT](https://img.shields.io/badge/Concluído-sucess.svg)
+### Status: ![Concluído](https://img.shields.io/badge/Concluído-sucess.svg)
 
 ### Visão Geral
 
@@ -23,7 +23,6 @@ Este projeto, feito por mim, segue a base dos gêmeos; toda e qualquer alteraç�
 
 O projeto foi colocado no ar através do GitHub Pages. Caso tenha interesse de ver, aqui está o link: **[Projeto Super Mario Bros | O Filme](https://coelhoalexandre.github.io/projeto-mario-dev-em-dobro/)**
 
-
 ## Tecnolgias Utilizadas
 
 - Visual Studio Code;
@@ -35,7 +34,7 @@ O projeto foi colocado no ar através do GitHub Pages. Caso tenha interesse de v
 Toda a criação do modelo, como imagens, cores, vídeos, layout e etc; foi desenvolvido, pensado e coletado pelos os **Gêmeos**, sendo eles os **criadores reais do projeto**.
 Para mais informações sobre eles, entre no GitHub deles: **[GitHub do Dev em Dobro](https://github.com/devemdobro).**
 
-Este repositiorio em especifico foi desenvolvido individualmente por mim, Alexandre Coelho, enquanto estudava Desenvolvimento Web Frontend. Logo abaixo está meus principais links:
+Este repositiorio em especifico foi desenvolvido individualmente por mim, **Alexandre Coelho**, enquanto estudava Desenvolvimento Web Frontend. Logo abaixo está meus principais links:
   
 <a href = "mailto:alexandrecoelhocontato@gmail.com"><img src="https://img.shields.io/badge/-Gmail-critical?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" alt="Gmail Badge"></a>
 <a href="https://www.linkedin.com/in/-coelhoalexandre/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" alt="LinkedIn Badge"></a>
